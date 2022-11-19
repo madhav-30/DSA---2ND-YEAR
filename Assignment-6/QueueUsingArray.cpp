@@ -1,21 +1,21 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-//complete the functions
+
 class Queue{
 	int A[100000];
 	int start;
 	int end;
 	
 	public:
-	//constructor is called whenever an object of the class is declared
+
 	Queue(){
 		cout<<"constructor is Called\n";
 		start=0;
 		end=0;
 	}
 	
-	//push the value at the back
+	
 	void push(int val){
 		cout<<"pushing the val: "<<val<<" at the back of queue\n";
 	}
@@ -41,7 +41,7 @@ class Queue{
 };
 
 int main() {
-	Queue q; //constructor is called on this line
+	Queue q;
 	q.push(9);
 	cout<<"front: "<<q.front()<<"\n";
 	q.pop();
